@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: TU_USUARIO/TU_REPO
+  branch: main
+
+media_folder: "public/media"
+public_folder: "/media"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descripción", name: "description", widget: "string", required: false }
+      - { label: "Fecha", name: "pubDate", widget: "datetime" }
+
+      - label: "Imagen principal"
+        name: "image"
+        widget: "image"
+        required: false
+
+      - label: "Video / GIF"
+        name: "video"
+        widget: "file"
+        required: false
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: []
+
+      - { label: "Borrador", name: "draft", widget: "boolean", default: false }
+
+      - { label: "Contenido", name: "body", widget: "markdown" }

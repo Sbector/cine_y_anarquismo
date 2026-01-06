@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TU_USUARIO/TU_REPO
+  repo: Sbector/cine_y_anarquismo
   branch: main
 
 media_folder: "public/media"

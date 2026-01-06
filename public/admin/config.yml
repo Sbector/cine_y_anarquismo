@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Sbector/cine_y_anarquismo
+  name: git-gateway
   branch: main
 
 media_folder: "public/media"

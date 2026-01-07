@@ -6,4 +6,4 @@ tags:
 ---
 # Título
 
-Esta es una prueba con Pages CMS
+Esta es una prueba nueva.

@@ -1,0 +1,38 @@
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: blog
+    label: Blog
+    type: collection
+    path: src/content/blog
+    format: md
+    fields:
+      - name: title
+        label: Título
+        type: string
+
+      - name: pubDate
+        label: Fecha
+        type: date
+
+      - name: tags
+        label: Tags
+        type: list
+        item:
+          type: string
+
+      - name: image
+        label: Imagen
+        type: image
+        required: false
+
+      - name: video
+        label: Video / GIF
+        type: file
+        required: false
+
+      - name: body
+        label: Contenido
+        type: rich-text

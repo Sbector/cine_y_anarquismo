@@ -5,4 +5,4 @@ tags:
   - notas
 image: /media/C406BF6C-D345-4B29-97F1-238E8330D858.jpeg
 ---
-Slide to the righth
+Slide to the right

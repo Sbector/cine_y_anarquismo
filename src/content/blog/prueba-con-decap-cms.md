@@ -2,7 +2,7 @@
 title: Prueba con Decap CMS
 description: Una pruebita del potencial
 pubDate: 2026-01-05T20:14:00.000-06:00
-image: /media/test.png
+image: /media/images/test.png
 tags: []
 draft: false
 ---

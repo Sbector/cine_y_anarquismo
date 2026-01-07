@@ -7,7 +7,8 @@ content:
     label: Blog
     type: collection
     path: src/content/blog
-    format: md
+    format: yaml-frontmatter
+
     fields:
       - name: title
         label: Título
@@ -19,9 +20,15 @@ content:
 
       - name: tags
         label: Tags
-        type: list
-        item:
-          type: string
+        type: select
+        options:
+          multiple: true
+          choices:
+            - arte
+            - web
+            - threejs
+            - proceso
+            - notas
 
       - name: image
         label: Imagen

@@ -1,6 +1,8 @@
 ---
 title: Prueba con Decap CMS
 pubDate: 2026-01-05
+tags:
+  - arte
 image: /media/images/test.png
 ---
 Esta es la prueba inicial de este CMS. La intención es sólo probar las capacidades de edición.
@@ -16,6 +18,6 @@ Esta es la prueba inicial de este CMS. La intención es sólo probar las capacid
 
 > Esta es una cita **negra**.
 
-Adios!  
-  
+Adios!
+
 Esta es la edición con Pages CMS

@@ -1,5 +1,6 @@
 ---
 title: Post desde el cel
+pubDate: 2026-01-06
 tags:
   - web
 image: /media/1000129032.png

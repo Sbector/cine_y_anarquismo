@@ -23,13 +23,8 @@ content:
         type: select
         options:
           multiple: true
-          choices:
-            - arte
-            - web
-            - threejs
-            - proceso
-            - notas
-
+          values: [arte, web, notas]
+            
       - name: image
         label: Imagen
         type: image
